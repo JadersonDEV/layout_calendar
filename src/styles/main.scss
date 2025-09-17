@@ -26,7 +26,6 @@ $days: (
 
 @each $day, $i in $days {
   .calendar--start-day-#{$day} .calendar__day:first-child {
-    grid-column-start: #{$i + 1};
-    margin-left: 0;
+    margin-left: calc($i * ($day-size + $gap-size));
   }
 }

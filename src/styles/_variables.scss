@@ -1,8 +1,14 @@
 // sizes;
 $day-size: 100px;
 $border-width: 1px;
-$padding: 10px;
+$gap-size: 1px;
+$calendar-padding-total: 10px;
 $font-size: 30px;
+$hover-move: -20px;
+$margin-left: 10px;
+
+// transitions
+$transition-duration: 0.5s;
 
 // colors;
 $grey-color: #eee;
