@@ -16,10 +16,13 @@
     border: $border-width solid $border-color;
     background-color: $grey-color;
     cursor: pointer;
-    transition: transform $transition-duration;
+    transition:
+      background $transition-duration,
+      transform $transition-duration;
   }
 
   &__day:hover {
+    border: $border-width solid $border-color;
     background-color: $pink-color;
     transform: translateY($hover-move);
   }
